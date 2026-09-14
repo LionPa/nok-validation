@@ -158,7 +158,7 @@ The validation rules from the schema are compiled into validation logic that is 
 
 Nok Validation is designed with performance in mind.
 
-Benchmarks, sources, and decompiled examples will be added to the `benchmarks` directory.
+Benchmark results, methodology, and implementation details are available in the [`benchmarks/README.md`](./benchmarks/README.md).
 
 ## License
 

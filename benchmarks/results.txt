@@ -1,0 +1,60 @@
+Benchmark                                                                               Mode  Cnt     Score     Error   Units
+CreateCatDtoValidationBenchmark.benchmarkInvalidDto                                     avgt  600    40,887 ±   0,520   ns/op
+CreateCatDtoValidationBenchmark.benchmarkInvalidDto:·gc.alloc.rate                      avgt  600  5485,476 ±  50,618  MB/sec
+CreateCatDtoValidationBenchmark.benchmarkInvalidDto:·gc.alloc.rate.norm                 avgt  600   234,667 ±   1,019    B/op
+CreateCatDtoValidationBenchmark.benchmarkInvalidDto:·gc.count                           avgt  600   181,000            counts
+CreateCatDtoValidationBenchmark.benchmarkInvalidDto:·gc.time                            avgt  600    72,000                ms
+CreateCatDtoValidationBenchmark.benchmarkMixedDto                                       avgt  600    21,500 ±   0,516   ns/op
+CreateCatDtoValidationBenchmark.benchmarkMixedDto:·gc.alloc.rate                        avgt  600  2780,696 ±  72,471  MB/sec
+CreateCatDtoValidationBenchmark.benchmarkMixedDto:·gc.alloc.rate.norm                   avgt  600    60,800 ±   0,001    B/op
+CreateCatDtoValidationBenchmark.benchmarkMixedDto:·gc.count                             avgt  600   118,000            counts
+CreateCatDtoValidationBenchmark.benchmarkMixedDto:·gc.time                              avgt  600    46,000                ms
+CreateCatDtoValidationBenchmark.benchmarkRareDto                                        avgt  600    13,054 ±   0,444   ns/op
+CreateCatDtoValidationBenchmark.benchmarkRareDto:·gc.alloc.rate                         avgt  600  1406,196 ±  45,662  MB/sec
+CreateCatDtoValidationBenchmark.benchmarkRareDto:·gc.alloc.rate.norm                    avgt  600    18,187 ±   0,005    B/op
+CreateCatDtoValidationBenchmark.benchmarkRareDto:·gc.count                              avgt  600    61,000            counts
+CreateCatDtoValidationBenchmark.benchmarkRareDto:·gc.time                               avgt  600    25,000                ms
+CreateCatDtoValidationBenchmark.benchmarkValidDto                                       avgt  600    11,822 ±   0,504   ns/op
+CreateCatDtoValidationBenchmark.benchmarkValidDto:·gc.alloc.rate                        avgt  600     0,019 ±   0,001  MB/sec
+CreateCatDtoValidationBenchmark.benchmarkValidDto:·gc.alloc.rate.norm                   avgt  600    ≈ 10⁻⁴              B/op
+CreateCatDtoValidationBenchmark.benchmarkValidDto:·gc.count                             avgt  600       ≈ 0            counts
+jakarta.JakartaCreateCatDtoValidationBenchmark.benchmarkInvalidDto                      avgt  600   889,912 ±  33,013   ns/op
+jakarta.JakartaCreateCatDtoValidationBenchmark.benchmarkInvalidDto:·gc.alloc.rate       avgt  600  5210,977 ±  42,528  MB/sec
+jakarta.JakartaCreateCatDtoValidationBenchmark.benchmarkInvalidDto:·gc.alloc.rate.norm  avgt  600  4922,684 ± 198,214    B/op
+jakarta.JakartaCreateCatDtoValidationBenchmark.benchmarkInvalidDto:·gc.count            avgt  600   142,000            counts
+jakarta.JakartaCreateCatDtoValidationBenchmark.benchmarkInvalidDto:·gc.time             avgt  600    60,000                ms
+jakarta.JakartaCreateCatDtoValidationBenchmark.benchmarkMixedDto                        avgt  600   756,390 ±  10,034   ns/op
+jakarta.JakartaCreateCatDtoValidationBenchmark.benchmarkMixedDto:·gc.alloc.rate         avgt  600  5503,819 ±  35,272  MB/sec
+jakarta.JakartaCreateCatDtoValidationBenchmark.benchmarkMixedDto:·gc.alloc.rate.norm    avgt  600  4379,215 ±  60,044    B/op
+jakarta.JakartaCreateCatDtoValidationBenchmark.benchmarkMixedDto:·gc.count              avgt  600   152,000            counts
+jakarta.JakartaCreateCatDtoValidationBenchmark.benchmarkMixedDto:·gc.time               avgt  600    63,000                ms
+jakarta.JakartaCreateCatDtoValidationBenchmark.benchmarkRareDto                         avgt  600   584,213 ±  23,027   ns/op
+jakarta.JakartaCreateCatDtoValidationBenchmark.benchmarkRareDto:·gc.alloc.rate          avgt  600  5397,424 ±  60,836  MB/sec
+jakarta.JakartaCreateCatDtoValidationBenchmark.benchmarkRareDto:·gc.alloc.rate.norm     avgt  600  3379,558 ± 157,582    B/op
+jakarta.JakartaCreateCatDtoValidationBenchmark.benchmarkRareDto:·gc.count               avgt  600   149,000            counts
+jakarta.JakartaCreateCatDtoValidationBenchmark.benchmarkRareDto:·gc.time                avgt  600    61,000                ms
+jakarta.JakartaCreateCatDtoValidationBenchmark.benchmarkValidDto                        avgt  600   461,680 ±  16,867   ns/op
+jakarta.JakartaCreateCatDtoValidationBenchmark.benchmarkValidDto:·gc.alloc.rate         avgt  600  4958,366 ±  81,819  MB/sec
+jakarta.JakartaCreateCatDtoValidationBenchmark.benchmarkValidDto:·gc.alloc.rate.norm    avgt  600  2413,342 ±  94,600    B/op
+jakarta.JakartaCreateCatDtoValidationBenchmark.benchmarkValidDto:·gc.count              avgt  600   144,000            counts
+jakarta.JakartaCreateCatDtoValidationBenchmark.benchmarkValidDto:·gc.time               avgt  600    63,000                ms
+konform.KonformCreateCatDtoValidationBenchmark.benchmarkInvalidDto                      avgt  600   239,213 ±   2,787   ns/op
+konform.KonformCreateCatDtoValidationBenchmark.benchmarkInvalidDto:·gc.alloc.rate       avgt  600  5051,429 ±  41,652  MB/sec
+konform.KonformCreateCatDtoValidationBenchmark.benchmarkInvalidDto:·gc.alloc.rate.norm  avgt  600  1266,671 ±   6,624    B/op
+konform.KonformCreateCatDtoValidationBenchmark.benchmarkInvalidDto:·gc.count            avgt  600   167,000            counts
+konform.KonformCreateCatDtoValidationBenchmark.benchmarkInvalidDto:·gc.time             avgt  600    66,000                ms
+konform.KonformCreateCatDtoValidationBenchmark.benchmarkMixedDto                        avgt  600   100,977 ±   2,338   ns/op
+konform.KonformCreateCatDtoValidationBenchmark.benchmarkMixedDto:·gc.alloc.rate         avgt  600  6162,638 ±  46,395  MB/sec
+konform.KonformCreateCatDtoValidationBenchmark.benchmarkMixedDto:·gc.alloc.rate.norm    avgt  600   657,602 ±  18,015    B/op
+konform.KonformCreateCatDtoValidationBenchmark.benchmarkMixedDto:·gc.count              avgt  600   180,000            counts
+konform.KonformCreateCatDtoValidationBenchmark.benchmarkMixedDto:·gc.time               avgt  600    72,000                ms
+konform.KonformCreateCatDtoValidationBenchmark.benchmarkRareDto                         avgt  600   101,141 ±   0,651   ns/op
+konform.KonformCreateCatDtoValidationBenchmark.benchmarkRareDto:·gc.alloc.rate          avgt  600  6548,153 ±  40,769  MB/sec
+konform.KonformCreateCatDtoValidationBenchmark.benchmarkRareDto:·gc.alloc.rate.norm     avgt  600   695,682 ±   0,061    B/op
+konform.KonformCreateCatDtoValidationBenchmark.benchmarkRareDto:·gc.count               avgt  600   192,000            counts
+konform.KonformCreateCatDtoValidationBenchmark.benchmarkRareDto:·gc.time                avgt  600    77,000                ms
+konform.KonformCreateCatDtoValidationBenchmark.benchmarkValidDto                        avgt  600    53,273 ±   1,723   ns/op
+konform.KonformCreateCatDtoValidationBenchmark.benchmarkValidDto:·gc.alloc.rate         avgt  600   305,589 ±  11,524  MB/sec
+konform.KonformCreateCatDtoValidationBenchmark.benchmarkValidDto:·gc.alloc.rate.norm    avgt  600    16,001 ±   0,001    B/op
+konform.KonformCreateCatDtoValidationBenchmark.benchmarkValidDto:·gc.count              avgt  600    13,000            counts
+konform.KonformCreateCatDtoValidationBenchmark.benchmarkValidDto:·gc.time               avgt  600    11,000                ms
