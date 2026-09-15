@@ -15,6 +15,7 @@ Nok Validation is a compile-time validation library for Kotlin. It can be used s
 * Built-in validators
 * Custom validators
 * Framework-independent
+* Spring Boot integration
 
 ## Example
 
@@ -153,6 +154,24 @@ instead of putting the validation logic directly inside the schema.
 Nok Validation uses a Kotlin compiler plugin to process `@Validatable` classes at compile time.
 
 The validation rules from the schema are compiled into validation logic that is added to the generated class. No separate validator class needs to be written.
+
+## Framework Integration
+
+### Spring Boot
+
+Nok Validation supports Spring Boot out of the box:
+
+```kotlin
+plugins {
+    id("io.github.lionpa.nok-validation") version "1.0.1"
+}
+
+dependencies {
+    implementation("io.github.lionpa:nok-validation-spring:1.0.1")
+}
+```
+
+See [`spring/README.md`](./spring/README.md) for details and examples.
 
 ## Performance & Benchmarks
 

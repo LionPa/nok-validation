@@ -8,3 +8,4 @@
 /benchmarks/.gradle
 /benchmarks/build
 /benchmarks/.kotlin
+/spring/build

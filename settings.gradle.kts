@@ -28,3 +28,4 @@ rootProject.name = "NokValidator"
 include("compiler-plugin")
 include("gradle-plugin")
 include("core")
+include("spring")
